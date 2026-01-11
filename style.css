@@ -278,7 +278,7 @@
 
         .project-link {
             display: inline-block;
-            color: #0071e3;
+            color: #e300c5;
             text-decoration: none;
             font-weight: 500;
             transition: color 0.3s;
@@ -286,7 +286,9 @@
         }
 
         .project-link:hover {
-            /* TODO MARDI CSS : Ajouter color: #0a84ff; */
+           /* Le lien devient violet foncé et se souligne quand on passe la souris */
+    color: #b00099;
+    text-decoration: underline;
         }
 
         /* ===== CONTACT SECTION / FORM ===== */
