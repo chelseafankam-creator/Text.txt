@@ -97,7 +97,8 @@
 
         .cta-button {
             display: inline-block;
-            background-color: #0071e3;
+            background-color: #e300c5;
+            /* Changement de la couleur principale */
             color: white;
             padding: 14px 32px;
             border-radius: 980px;
@@ -334,9 +335,11 @@
         }
 
         .form-group input:focus,
-        .form-group textarea:focus {
-            /* TODO MARDI CSS : Ajouter outline: none; border-color: #0071e3; */
-        }
+        .form-group textarea:focus {outline: none;
+    /* On met ta couleur rose pour la bordure quand on écrit */
+    border-color: #e300c5;
+}
+            
 
         .form-group textarea {
             resize: vertical;
@@ -344,7 +347,8 @@
         }
 
         .submit-button {
-            background-color: #0071e3;
+            background-color: #e300c5;
+            /* Changement couleur */
             color: white;
             padding: 14px;
             border: none;
