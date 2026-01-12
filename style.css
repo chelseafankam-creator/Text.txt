@@ -129,7 +129,7 @@
         .cta-button:hover { /* Animation Pro : Grossissement + Lumière rose */
     background-color: #b00099;
     transform: scale(1.05);
-    /* Voici l'effet néon stylé : */
+    /*effet néon stylé : */
     box-shadow: 0 0 20px rgba(227, 0, 197, 0.6);
      
             
@@ -406,7 +406,7 @@
         }
 
         .submit-button:hover {background-color: #b00099;
-    transform: translateY(-3px);/* Petit saut dynamique */
+    transform: translateY(-3px);
     box-shadow: 0 4px 10px rgba(227, 0, 197, 0.3);
             
         }
@@ -460,7 +460,7 @@
             transition: color 0.3s;
         }
 
-        .social-links a:hover {color: #e300c5; /* Met les icônes en rose au survol */
+        .social-links a:hover {color: #e300c5; /*les icônes en rose au survol */
         }
           
          .footer-bottom {
@@ -468,6 +468,20 @@
             color: #a1a1a6;
             padding-top: 40px;
             border-top: 1px solid #e5e5e7;
+            
+            /* --- STYLE DES ICONES DE COMPETENCES --- */
+.skill-icon i {
+    font-size: 3.5rem; /* Grande taille pour être bien visible */
+    color: #e300c5;    
+    margin-bottom: 20px;
+    display: block;
+    transition: transform 0.3s ease;
+}
+
+.skill-card:hover .skill-icon i {
+    transform: scale(1.2);
+    color: #b00099; /* Devient au survol */
+}
         }
 /* --- SECTION RESEAUX SOCIAUX --- */
 .social-links {
